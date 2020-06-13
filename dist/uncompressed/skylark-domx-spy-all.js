@@ -1,5 +1,5 @@
 /**
- * skylark-domx-panels - The skylark spy plugins library for dom api extension
+ * skylark-domx-spy - The skylark spy plugins library for dom api extension
  * @author Hudaokeji, Inc.
  * @version v0.9.0
  * @link https://github.com/skylark-domx/skylark-domx-spy/
@@ -128,7 +128,7 @@ define('skylark-langx/skylark',[
 	return ns;
 });
 
-define('skylark-domx-panels/spy',[
+define('skylark-domx-spy/spy',[
   "skylark-langx/skylark",
 ],function(skylark){
 
@@ -11166,7 +11166,7 @@ define('skylark-domx-plugins/main',[
 });
 define('skylark-domx-plugins', ['skylark-domx-plugins/main'], function (main) { return main; });
 
-define('skylark-domx-panels/Affix',[
+define('skylark-domx-spy/Affix',[
   "skylark-langx/langx",
   "skylark-domx-browser",
   "skylark-domx-eventer",
@@ -11290,7 +11290,7 @@ define('skylark-domx-panels/Affix',[
   return spy.Affix = Affix;
 });
 
-define('skylark-domx-panels/ScrollSpy',[
+define('skylark-domx-spy/ScrollSpy',[
   "skylark-langx/langx",
   "skylark-domx-browser",
   "skylark-domx-eventer",
@@ -11318,7 +11318,7 @@ define('skylark-domx-panels/ScrollSpy',[
     _construct : function(elm,options) {
       this.overrided(elm,options);
       this.$body          = $(document.body)
-      this.$scrollElement = $(element).is(document.body) ? $(window) : $(element)
+      this.$scrollElement = this.$().is(document.body) ? $(window) : this.$();
       //this.options        = langx.mixin({}, ScrollSpy.DEFAULTS, options)
       this.selector       = (this.options.target || '') + ' .nav li > a'
       this.offsets        = []
@@ -11434,14 +11434,14 @@ define('skylark-domx-panels/ScrollSpy',[
 
 });
 
-define('skylark-domx-panels/main',[
+define('skylark-domx-spy/main',[
     "./spy",
     "./Affix",
     "./ScrollSpy"
 ], function(spy) {
     return spy;
 });
-define('skylark-domx-panels', ['skylark-domx-panels/main'], function (main) { return main; });
+define('skylark-domx-spy', ['skylark-domx-spy/main'], function (main) { return main; });
 
 
 },this);

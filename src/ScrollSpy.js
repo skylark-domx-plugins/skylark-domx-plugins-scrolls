@@ -26,7 +26,7 @@ define([
     _construct : function(elm,options) {
       this.overrided(elm,options);
       this.$body          = $(document.body)
-      this.$scrollElement = $(element).is(document.body) ? $(window) : $(element)
+      this.$scrollElement = this.$().is(document.body) ? $(window) : this.$();
       //this.options        = langx.mixin({}, ScrollSpy.DEFAULTS, options)
       this.selector       = (this.options.target || '') + ' .nav li > a'
       this.offsets        = []
