@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.js"],"names":["define","spy"],"mappings":";;;;;;;AAAAA,QACI,QACA,UACA,eACD,SAASC,GACR,OAAOA","file":"../main.js","sourcesContent":["define([\r\n    \"./spy\",\r\n    \"./Affix\",\r\n    \"./ScrollSpy\"\r\n], function(spy) {\r\n    return spy;\r\n});"]}
