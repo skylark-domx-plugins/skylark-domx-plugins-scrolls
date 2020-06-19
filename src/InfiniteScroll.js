@@ -133,7 +133,7 @@ define([
 				this.fetchData();
 			}
 		}
-	};
+  });
 
   plugins.register(InfiniteScroll);
 
