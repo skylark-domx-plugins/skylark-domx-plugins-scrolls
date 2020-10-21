@@ -1,2 +1,2 @@
-# skyalrk-domx-spy
-The skylark spy plugins library for dom api extension
+# skyalrk-domx-scrolls
+The skylark scroll utility library for dom api extension

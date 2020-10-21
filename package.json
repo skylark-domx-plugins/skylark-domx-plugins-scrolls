@@ -1,6 +1,6 @@
 {
-  "name": "skylark-domx-spy",
-  "description": "The skylark spy plugins library for dom api extension",
+  "name": "skylark-domx-scrolls",
+  "description": "The skylark scrolls plugins library for dom api extension",
   "version": "0.9.0",
   "keywords": [
     "skylark",
@@ -8,17 +8,17 @@
     "swt",
     "widget"
   ],
-  "homepage": "https://github.com/skylark-domx/skylark-domx-spy/",
+  "homepage": "https://github.com/skylark-domx/skylark-domx-scrolls/",
   "author": "Hudaokeji, Inc.",
   "scripts": {
     "build": "sbundle build ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skylark-domx/skylark-domx-spy.git"
+    "url": "https://github.com/skylark-domx/skylark-domx-scrolls.git"
   },
   "bugs": {
-    "url": "https://github.com/skylark-domx/skylark-domx-spy/issues"
+    "url": "https://github.com/skylark-domx/skylark-domx-scrolls/issues"
   },
   "license": "MIT",
   "dependencies": {

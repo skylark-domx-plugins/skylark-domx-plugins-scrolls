@@ -1,8 +1,8 @@
 /**
- * skylark-domx-spy - The skylark spy plugins library for dom api extension
+ * skylark-domx-scrolls - The skylark scrolls plugins library for dom api extension
  * @author Hudaokeji, Inc.
  * @version v0.9.0
- * @link https://github.com/skylark-domx/skylark-domx-spy/
+ * @link https://github.com/skylark-domx/skylark-domx-scrolls/
  * @license MIT
  */
 (function(factory,globals) {
@@ -86,7 +86,7 @@
 
 })(function(define,require) {
 
-define('skylark-domx-spy/scrolls',[
+define('skylark-domx-scrolls/scrolls',[
   "skylark-langx/skylark",
 ],function(skylark){
 
@@ -95,7 +95,7 @@ define('skylark-domx-spy/scrolls',[
 
 });
 
-define('skylark-domx-spy/Affix',[
+define('skylark-domx-scrolls/Affix',[
   "skylark-langx/langx",
   "skylark-domx-browser",
   "skylark-domx-eventer",
@@ -219,7 +219,7 @@ define('skylark-domx-spy/Affix',[
   return scrolls.Affix = Affix;
 });
 
-define('skylark-domx-spy/InfiniteScroll',[
+define('skylark-domx-scrolls/InfiniteScroll',[
   "skylark-langx/langx",
   "skylark-domx-browser",
   "skylark-domx-eventer",
@@ -361,7 +361,7 @@ define('skylark-domx-spy/InfiniteScroll',[
   return scrolls.InfiniteScroll = InfiniteScroll;	
 });
 
-define('skylark-domx-spy/scrollingElement',[
+define('skylark-domx-scrolls/scrollingElement',[
 	"./scrolls"
 ],function(scrolls){
 	function scrollingElement() {
@@ -370,7 +370,7 @@ define('skylark-domx-spy/scrollingElement',[
 	
 	return scrolls.scrollingElement = scrollingElement;
 });
-define('skylark-domx-spy/ScrollSpy',[
+define('skylark-domx-scrolls/ScrollSpy',[
   "skylark-langx/langx",
   "skylark-domx-browser",
   "skylark-domx-eventer",
@@ -514,7 +514,7 @@ define('skylark-domx-spy/ScrollSpy',[
 
 });
 
-define('skylark-domx-spy/main',[
+define('skylark-domx-scrolls/main',[
     "./scrolls",
     "./Affix",
     "./InfiniteScroll",
@@ -523,8 +523,8 @@ define('skylark-domx-spy/main',[
 ], function(scrolls) {
     return scrolls;
 });
-define('skylark-domx-spy', ['skylark-domx-spy/main'], function (main) { return main; });
+define('skylark-domx-scrolls', ['skylark-domx-scrolls/main'], function (main) { return main; });
 
 
 },this);
-//# sourceMappingURL=sourcemaps/skylark-domx-spy.js.map
+//# sourceMappingURL=sourcemaps/skylark-domx-scrolls.js.map
