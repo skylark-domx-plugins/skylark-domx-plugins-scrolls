@@ -361,6 +361,15 @@ define('skylark-domx-spy/InfiniteScroll',[
   return scrolls.InfiniteScroll = InfiniteScroll;	
 });
 
+define('skylark-domx-spy/scrollingElement',[
+	"./scrolls"
+],function(scrolls){
+	function scrollingElement() {
+		return document.scrollingElement || document.documentElement;
+	}
+	
+	return scrolls.scrollingElement = scrollingElement;
+});
 define('skylark-domx-spy/ScrollSpy',[
   "skylark-langx/langx",
   "skylark-domx-browser",
@@ -509,6 +518,7 @@ define('skylark-domx-spy/main',[
     "./scrolls",
     "./Affix",
     "./InfiniteScroll",
+    "./scrollingElement",
     "./ScrollSpy"
 ], function(scrolls) {
     return scrolls;

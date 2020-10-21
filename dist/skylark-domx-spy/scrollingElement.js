@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx/skylark-domx-spy/
  * @license MIT
  */
-define(["./scrolls","./Affix","./InfiniteScroll","./scrollingElement","./ScrollSpy"],function(l){return l});
-//# sourceMappingURL=sourcemaps/main.js.map
+define(["./scrolls"],function(n){return n.scrollingElement=function(){return document.scrollingElement||document.documentElement}});
+//# sourceMappingURL=sourcemaps/scrollingElement.js.map
