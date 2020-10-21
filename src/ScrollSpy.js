@@ -6,8 +6,8 @@ define([
   "skylark-domx-geom",
   "skylark-domx-query",
   "skylark-domx-plugins",
-  "./spy"
-],function(langx,browser,eventer,noder,geom,$,plugins,spy){
+  "./scrolls"
+],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
   'use strict';
 
@@ -138,6 +138,6 @@ define([
 
   plugins.register(ScrollSpy);
 
-  return spy.ScrollSpy = ScrollSpy;
+  return scrolls.ScrollSpy = ScrollSpy;
 
 });

@@ -3,6 +3,6 @@ define([
 ],function(skylark){
 
 
-	return skylark.attach("domx.spy",{});
+	return skylark.attach("domx.scrolls",{});
 
 });

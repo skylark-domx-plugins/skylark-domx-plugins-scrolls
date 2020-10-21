@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx/skylark-domx-spy/
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(a){return a.attach("domx.spy",{})});
-//# sourceMappingURL=sourcemaps/spy.js.map
+define(["skylark-langx/skylark"],function(a){return a.attach("domx.scrolls",{})});
+//# sourceMappingURL=sourcemaps/scrolls.js.map

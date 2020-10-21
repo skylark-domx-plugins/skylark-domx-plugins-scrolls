@@ -1,8 +1,8 @@
 define([
-    "./spy",
+    "./scrolls",
     "./Affix",
     "./InfiniteScroll",
     "./ScrollSpy"
-], function(spy) {
-    return spy;
+], function(scrolls) {
+    return scrolls;
 });

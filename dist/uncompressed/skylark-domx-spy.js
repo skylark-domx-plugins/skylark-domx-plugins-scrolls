@@ -86,12 +86,12 @@
 
 })(function(define,require) {
 
-define('skylark-domx-spy/spy',[
+define('skylark-domx-spy/scrolls',[
   "skylark-langx/skylark",
 ],function(skylark){
 
 
-	return skylark.attach("domx.spy",{});
+	return skylark.attach("domx.scrolls",{});
 
 });
 
@@ -103,8 +103,8 @@ define('skylark-domx-spy/Affix',[
   "skylark-domx-geom",
   "skylark-domx-query",
   "skylark-domx-plugins",
-  "./spy"
-],function(langx,browser,eventer,noder,geom,$,plugins,spy){
+  "./scrolls"
+],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
   'use strict';
 
@@ -216,7 +216,7 @@ define('skylark-domx-spy/Affix',[
 
   plugins.register(Affix);
 
-  return spy.Affix = Affix;
+  return scrolls.Affix = Affix;
 });
 
 define('skylark-domx-spy/InfiniteScroll',[
@@ -227,8 +227,8 @@ define('skylark-domx-spy/InfiniteScroll',[
   "skylark-domx-geom",
   "skylark-domx-query",
   "skylark-domx-plugins",
-  "./spy"
-],function(langx,browser,eventer,noder,geom,$,plugins,spy){
+  "./scrolls"
+],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
   'use strict';
 
@@ -358,7 +358,7 @@ define('skylark-domx-spy/InfiniteScroll',[
 
   plugins.register(InfiniteScroll);
 
-  return spy.InfiniteScroll = InfiniteScroll;	
+  return scrolls.InfiniteScroll = InfiniteScroll;	
 });
 
 define('skylark-domx-spy/ScrollSpy',[
@@ -369,8 +369,8 @@ define('skylark-domx-spy/ScrollSpy',[
   "skylark-domx-geom",
   "skylark-domx-query",
   "skylark-domx-plugins",
-  "./spy"
-],function(langx,browser,eventer,noder,geom,$,plugins,spy){
+  "./scrolls"
+],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
   'use strict';
 
@@ -501,17 +501,17 @@ define('skylark-domx-spy/ScrollSpy',[
 
   plugins.register(ScrollSpy);
 
-  return spy.ScrollSpy = ScrollSpy;
+  return scrolls.ScrollSpy = ScrollSpy;
 
 });
 
 define('skylark-domx-spy/main',[
-    "./spy",
+    "./scrolls",
     "./Affix",
     "./InfiniteScroll",
     "./ScrollSpy"
-], function(spy) {
-    return spy;
+], function(scrolls) {
+    return scrolls;
 });
 define('skylark-domx-spy', ['skylark-domx-spy/main'], function (main) { return main; });
 
