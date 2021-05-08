@@ -91,7 +91,7 @@ define('skylark-domx-scrolls/scrolls',[
 ],function(skylark){
 
 
-	return skylark.attach("domx.scrolls",{});
+	return skylark.attach("domx.plugins.scrolls",{});
 
 });
 
@@ -102,7 +102,7 @@ define('skylark-domx-scrolls/Affix',[
   "skylark-domx-noder",
   "skylark-domx-geom",
   "skylark-domx-query",
-  "skylark-domx-plugins",
+  "skylark-domx-plugins-base",
   "./scrolls"
 ],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
@@ -226,7 +226,7 @@ define('skylark-domx-scrolls/InfiniteScroll',[
   "skylark-domx-noder",
   "skylark-domx-geom",
   "skylark-domx-query",
-  "skylark-domx-plugins",
+  "skylark-domx-plugins-base",
   "./scrolls"
 ],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 
@@ -377,7 +377,7 @@ define('skylark-domx-scrolls/ScrollSpy',[
   "skylark-domx-noder",
   "skylark-domx-geom",
   "skylark-domx-query",
-  "skylark-domx-plugins",
+  "skylark-domx-plugins-base",
   "./scrolls"
 ],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 

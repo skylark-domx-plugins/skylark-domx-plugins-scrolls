@@ -11,7 +11,7 @@
   "homepage": "https://github.com/skylark-domx/skylark-domx-scrolls/",
   "author": "Hudaokeji, Inc.",
   "scripts": {
-    "build": "sbundle build ."
+    "build": "slib build ."
   },
   "repository": {
     "type": "git",
