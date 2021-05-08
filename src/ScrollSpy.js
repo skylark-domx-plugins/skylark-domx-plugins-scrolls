@@ -5,7 +5,7 @@ define([
   "skylark-domx-noder",
   "skylark-domx-geom",
   "skylark-domx-query",
-  "skylark-domx-plugins",
+  "skylark-domx-plugins-base",
   "./scrolls"
 ],function(langx,browser,eventer,noder,geom,$,plugins,scrolls){
 

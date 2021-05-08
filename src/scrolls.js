@@ -3,6 +3,6 @@ define([
 ],function(skylark){
 
 
-	return skylark.attach("domx.scrolls",{});
+	return skylark.attach("domx.plugins.scrolls",{});
 
 });
