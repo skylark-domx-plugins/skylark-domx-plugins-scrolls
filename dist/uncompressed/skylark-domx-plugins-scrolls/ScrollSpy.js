@@ -17,7 +17,7 @@ define([
   var ScrollSpy =  plugins.Plugin.inherit({
     klassName: "ScrollSpy",
 
-    pluginName : "domx.scrollspy",
+    pluginName : "lark.scrolls.scrollspy",
 
     options: {
       offset: 10

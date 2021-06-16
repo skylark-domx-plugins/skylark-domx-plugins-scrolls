@@ -114,7 +114,7 @@ define('skylark-domx-plugins-scrolls/Affix',[
   var Affix = plugins.Plugin.inherit({
         klassName: "Affix",
 
-        pluginName : "domx.affix",
+        pluginName : "lark.scrolls.affix",
 
         options : {
           offset: 0,
@@ -237,7 +237,7 @@ define('skylark-domx-plugins-scrolls/InfiniteScroll',[
   var InfiniteScroll = plugins.Plugin.inherit({
         klassName: "InfiniteScroll",
 
-        pluginName : "domx.infinitescroll",
+        pluginName : "lark.scrolls.infinitescroll",
 
         options : {
 			dataSource: null,
@@ -389,7 +389,7 @@ define('skylark-domx-plugins-scrolls/ScrollSpy',[
   var ScrollSpy =  plugins.Plugin.inherit({
     klassName: "ScrollSpy",
 
-    pluginName : "domx.scrollspy",
+    pluginName : "lark.scrolls.scrollspy",
 
     options: {
       offset: 10

@@ -17,7 +17,7 @@ define([
   var Affix = plugins.Plugin.inherit({
         klassName: "Affix",
 
-        pluginName : "domx.affix",
+        pluginName : "lark.scrolls.affix",
 
         options : {
           offset: 0,

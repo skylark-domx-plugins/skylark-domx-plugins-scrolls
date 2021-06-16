@@ -16,7 +16,7 @@ define([
   var InfiniteScroll = plugins.Plugin.inherit({
         klassName: "InfiniteScroll",
 
-        pluginName : "domx.infinitescroll",
+        pluginName : "lark.scrolls.infinitescroll",
 
         options : {
 			dataSource: null,
