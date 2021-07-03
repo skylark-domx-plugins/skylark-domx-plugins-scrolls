@@ -1,0 +1,1 @@
+{"version":3,"sources":["scrolls.js"],"names":["define","skylark","attach"],"mappings":";;;;;;;AAAAA,QACE,yBACA,SAASC,GAGV,OAAOA,EAAQC,OAAO","file":"../scrolls.js","sourcesContent":["define([\r\n  \"skylark-langx/skylark\",\r\n],function(skylark){\r\n\r\n\r\n\treturn skylark.attach(\"domx.plugins.scrolls\",{});\r\n\r\n});\r\n"]}
