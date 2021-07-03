@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.js"],"names":["define","scrolls"],"mappings":";;;;;;;AAAAA,QACI,YACA,UACA,mBACA,qBACA,eACD,SAASC,GACR,OAAOA","file":"../main.js","sourcesContent":["define([\r\n    \"./scrolls\",\r\n    \"./Affix\",\r\n    \"./InfiniteScroll\",\r\n    \"./scrollingElement\",\r\n    \"./ScrollSpy\"\r\n], function(scrolls) {\r\n    return scrolls;\r\n});"]}
