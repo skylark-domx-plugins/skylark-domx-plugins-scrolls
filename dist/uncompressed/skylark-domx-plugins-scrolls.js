@@ -87,14 +87,13 @@
 })(function(define,require) {
 
 define('skylark-domx-plugins-scrolls/scrolls',[
-  "skylark-langx/skylark",
-],function(skylark){
+    "skylark-domx-plugins-base/plugins"
+],function (plugins) {
+    'use strict';
 
-
-	return skylark.attach("domx.plugins.scrolls",{});
+    return plugins.scrolls = {};
 
 });
-
 define('skylark-domx-plugins-scrolls/affix',[
   "skylark-langx/langx",
   "skylark-domx-browser",

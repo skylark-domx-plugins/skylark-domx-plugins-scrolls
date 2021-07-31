@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx-plugins/skylark-domx-plugins-scrolls/
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(l){return l.attach("domx.plugins.scrolls",{})});
+define(["skylark-domx-plugins-base/plugins"],function(s){"use strict";return s.scrolls={}});
 //# sourceMappingURL=sourcemaps/scrolls.js.map
