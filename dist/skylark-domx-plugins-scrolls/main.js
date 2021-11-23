@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx-plugins/skylark-domx-plugins-scrolls/
  * @license MIT
  */
-define(["./scrolls","./affix","./infinite-scroll","./scrolling-element","./scroll-spy"],function(l){return l});
+define(["./scrolls","./affix","./auto-scroll","./infinite-scroll","./scrolling-element","./scroll-spy"],function(l){return l});
 //# sourceMappingURL=sourcemaps/main.js.map
