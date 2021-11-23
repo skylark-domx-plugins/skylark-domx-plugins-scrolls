@@ -33,7 +33,8 @@ define([
 
 			this._autoScroll = langx.debounce( (x,y) => {
 				///var _this = rootEl ? rootEl[expando] : window,
-				var	sens = options.scrollSensitivity,
+				var	options = this.options,
+					sens = options.scrollSensitivity,
 					speed = options.scrollSpeed,
 
 					winScroller = noder.scrollingElement();
