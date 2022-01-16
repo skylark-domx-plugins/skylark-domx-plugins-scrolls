@@ -85,9 +85,13 @@ define([
 					percentage: self.curPercentage,
 					scrollTop: self.curScrollTop
 				};
-				var $loader = $('<div class="loader"></div>');
-				load.append($loader);
-				$loader.loader();
+				///var $loader = $('<div class="loader"></div>');
+				///load.append($loader);
+				///$loader.loader();
+  		       noder.throb(load[0],{
+					className : "throbWrap"
+  		       });
+
 				if (self.options.dataSource) {
 					self.options.dataSource(helpers, function (resp) {
 						var end;
